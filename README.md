@@ -1,9 +1,8 @@
-# GAPA-Tetris
+# GAPA-Tetris ![image](https://user-images.githubusercontent.com/74284209/206341616-32de0703-1d76-4c0d-be96-58ca256fc08a.png)
 
 Haiii 👋 Welcome to my Project "GAPA Tetris" 
 
 # About
-![image](https://user-images.githubusercontent.com/74284209/206341616-32de0703-1d76-4c0d-be96-58ca256fc08a.png)
 Gapa Tetris Is A Simple Tetris Game App created by ❤️ from our group basiclly is made for our final project of "Object Oriented Programming"
 the meaning of GAPA is the initial letter of each of our groups Gladwin, Arthur, Peter, Arielson so that's where we named our game GAPA.
 
