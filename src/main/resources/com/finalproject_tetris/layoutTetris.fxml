@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.Group?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ToggleButton?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<Pane prefHeight="510.0" prefWidth="400.0" styleClass="background" stylesheets="@values/style.css" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.finalproject_tetris.guiController">
+   <children>
+      <GridPane fx:id="brickPanel" hgap="1.0" vgap="1.0" />
+      <BorderPane styleClass="gameBoard">
+         <center>
+            <GridPane fx:id="gamePanel" hgap="1.0" vgap="1.0" />
+         </center>
+         <padding>
+            <Insets left="20.0" right="10.0" top="10.0" />
+         </padding>
+      </BorderPane>
+      <VBox alignment="TOP_CENTER" layoutX="231.0" prefHeight="510.0" prefWidth="166.0">
+         <children>
+            <VBox alignment="CENTER" prefHeight="138.0" prefWidth="176.0">
+               <children>
+                  <BorderPane maxWidth="100" prefHeight="53.0" prefWidth="100.0" stylesheets="@values/style.css">
+                     <center>
+                        <GridPane fx:id="nextBrick" alignment="CENTER" hgap="1" prefHeight="108.0" prefWidth="135.0" vgap="1" />
+                     </center>
+                  </BorderPane>
+               </children>
+            </VBox>
+            <VBox alignment="CENTER" prefHeight="105.0" prefWidth="166.0">
+               <children>
+                  <ImageView fitHeight="100.0" fitWidth="70.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@img/Score.png" />
+                     </image>
+                  </ImageView>
+                  <Text fx:id="nilaiSkor" layoutX="60.0" layoutY="92.0" text="Teks" wrappingWidth="65.009765625">
+                     <font>
+                        <Font name="Microsoft Sans Serif" size="30.0" />
+                     </font>
+                  </Text>
+               </children>
+            </VBox>
+            <ToggleButton fx:id="pausebutton" mnemonicParsing="false" prefHeight="42.0" prefWidth="101.0" style="-fx-background-color: TRANSPARENT;" styleClass="button-dark" stylesheets="@values/style.css">
+               <graphic>
+                  <ImageView fitHeight="47.0" fitWidth="100.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@img/pause.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+            </ToggleButton>
+            <Button mnemonicParsing="false" onAction="#keluar" style="-fx-background-color: TRANSPARENT;">
+               <graphic>
+                  <ImageView fitHeight="44.0" fitWidth="92.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@img/back.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+            </Button>
+            <HBox alignment="CENTER" prefHeight="120.0" prefWidth="166.0">
+               <children>
+                  <ImageView fitHeight="133.0" fitWidth="120.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@img/LOGO.png" />
+                     </image>
+                  </ImageView>
+               </children>
+               <VBox.margin>
+                  <Insets bottom="-10.0" />
+               </VBox.margin>
+            </HBox>
+            <ImageView fitHeight="9.0" fitWidth="45.0" layoutY="20.0" pickOnBounds="true" preserveRatio="true" y="-20.0">
+               <image>
+                  <Image url="@img/cc.png" />
+               </image>
+            </ImageView>
+<!--            <VBox alignment="TOP_RIGHT" prefHeight="167.0" prefWidth="162.0" spacing="2.0">-->
+<!--               <children>-->
+<!--                  <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Use Arrow Keys Use Arrow Keys (↑,  ↓, →,  ←) or (A,S,D,W) Keys for movement and rotating" wrappingWidth="165.39447045326233" />-->
+<!--                  <Text layoutX="15.0" layoutY="28.0" strokeType="OUTSIDE" strokeWidth="0.0" text="N - For New Game" wrappingWidth="164.59454369544983" />-->
+<!--               </children>-->
+<!--               <padding>-->
+<!--                  <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />-->
+<!--               </padding>-->
+<!--            </VBox>-->
+         </children>
+      </VBox>
+      <Group fx:id="groupNotifikasi" layoutX="14" layoutY="203">
+         <BorderPane fx:id="gameOver" layoutX="18.0" layoutY="-20.0" prefHeight="56.0" prefWidth="186.0" stylesheets="@values/style.css">
+            <center>
+               <ImageView fitHeight="137.0" fitWidth="161.0" pickOnBounds="true" preserveRatio="true" BorderPane.alignment="CENTER">
+                  <image>
+                     <Image url="@img/gameover.png" />
+                  </image>
+               </ImageView>
+            </center>
+         </BorderPane>
+      </Group>
+
+   </children>
+</Pane>

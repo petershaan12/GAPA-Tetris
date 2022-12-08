@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.StackPane?>
+<?import javafx.scene.text.Font?>
+
+<StackPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="510.0" prefWidth="410.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.finalproject_tetris.tampilMenuController">
+   <children>
+      <ImageView fitHeight="535.0" fitWidth="420.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@img/tampilMenu.png" />
+         </image>
+      </ImageView>
+      <Button mnemonicParsing="false" onAction="#gameMulai" style="-fx-background-color: TRANSPARENT;">
+         <font>
+            <Font size="26.0" />
+         </font>
+         <graphic>
+            <ImageView fitHeight="82.0" fitWidth="245.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@img/Menu.png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </Button>
+      <Button layoutX="10.0" layoutY="20.0" mnemonicParsing="false" onAction="#tampilInfo" prefHeight="95.0" prefWidth="107.0" style="-fx-background-color: TRANSPARENT;">
+         <graphic>
+            <ImageView fitHeight="49.0" fitWidth="39.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@img/info.png" />
+               </image>
+            </ImageView>
+         </graphic>
+         <StackPane.margin>
+            <Insets right="-340.0" top="-450.0" />
+         </StackPane.margin>
+      </Button>
+   </children>
+</StackPane>

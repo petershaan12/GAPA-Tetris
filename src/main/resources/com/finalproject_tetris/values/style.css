@@ -1,0 +1,16 @@
+
+.background {
+    -fx-background-image: url("../img/bg2.png");
+}
+
+.helpInfo {
+    -fx-fill: white;
+    -fx-alignment: center-left;
+    -fx-text-alignment: left;
+    -fx-font-size: 10px;
+}
+
+.bonusStyle {
+    -fx-font-size: 40px;
+    -fx-font-weight: bold;
+}
