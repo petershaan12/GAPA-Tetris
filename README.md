@@ -1,4 +1,4 @@
-# GAPA-Tetris ![image](https://user-images.githubusercontent.com/74284209/206341616-32de0703-1d76-4c0d-be96-58ca256fc08a.png)
+# ![image](https://user-images.githubusercontent.com/74284209/206341616-32de0703-1d76-4c0d-be96-58ca256fc08a.png)
 
 Haiii 👋 Welcome to my Project "GAPA Tetris" 
 
