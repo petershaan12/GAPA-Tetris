@@ -21,9 +21,4 @@ the meaning of GAPA is the initial letter of each of our groups Gladwin, Arthur,
 - JavaFX
 
 # ScreenShoot
-
-![1](https://user-images.githubusercontent.com/74284209/206342341-1707d87e-cc46-4e06-9640-0e6323b7fe36.png)
-![2](https://user-images.githubusercontent.com/74284209/206342345-28c2a826-e900-4bfb-ba5a-4d1649facc8d.png)
-![3](https://user-images.githubusercontent.com/74284209/206342347-7d98a8d3-be76-4f90-8056-bd6d1d492eb4.png)
-![4](https://user-images.githubusercontent.com/74284209/206342350-b3c83fd0-c1ff-4902-abe3-385d659ef768.png)
-![5](https://user-images.githubusercontent.com/74284209/206342353-4dcb8c29-746a-4f35-9221-7089a89dd460.png)
+![1](https://user-images.githubusercontent.com/74284209/206342760-7a00af28-a3b0-45f6-a28d-5774813652d2.png)
