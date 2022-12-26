@@ -20,5 +20,8 @@ the meaning of GAPA is the initial letter of each of our groups Gladwin, Arthur,
 - Scene Builder
 - JavaFX
 
+# Preview 
+https://youtube.com/shorts/dmqe5R_ZrVQ?feature=share
+
 # ScreenShoot
 ![1](https://user-images.githubusercontent.com/74284209/206342760-7a00af28-a3b0-45f6-a28d-5774813652d2.png)
